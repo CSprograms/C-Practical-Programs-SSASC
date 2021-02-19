@@ -7,7 +7,6 @@
 	Title of the Program 	: Odd or Even of a given number.
 	Preapared by 		: M Aravindhan, Assistant Professor, Department of Computer Science,
 				Sri Sankara Arts and Science College (Autonomous), Enathur, Kanchipuram - 631 561.
-	
 */
 
 #include<stdio.h>

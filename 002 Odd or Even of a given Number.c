@@ -13,6 +13,8 @@ int main()
 		printf("\nGiven number is ODD.\n");
 	else
 		printf("\nGiven number is EVEN.\n");
+	
+	printf("\n");
 
 	return 0;
 }

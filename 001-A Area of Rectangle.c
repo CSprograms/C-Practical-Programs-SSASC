@@ -14,7 +14,5 @@ int main( )
 
 	printf("\nArea of Rectangle is %d.\n", area);
 	
-	printf("\n");
-
 	return 0;
 }

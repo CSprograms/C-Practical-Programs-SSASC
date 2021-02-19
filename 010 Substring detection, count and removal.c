@@ -4,7 +4,7 @@
 	Year / Semester		: I / II.
 	Academic Year		: 2018-2019 to 2020-2021. 
 	Title of the Paper 	: C Programming Lab.
-	Title of the Program 	: .
+	Title of the Program 	: Substring detection, count and removal.
 	Preapared by 		: M Aravindhan, Assistant Professor, Department of Computer Science,
 				Sri Sankara Arts and Science College (Autonomous), Enathur, Kanchipuram - 631 561.
 */

@@ -12,6 +12,8 @@ int main()
 	area=a*a;
 
 	printf("\nArea of square for given side '%d' is %d.\n",a,area);
+	
+	printf("\n");
 
 	return 0;
 }

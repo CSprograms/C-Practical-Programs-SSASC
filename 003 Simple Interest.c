@@ -17,5 +17,8 @@ int main()
 	interest = p * n * (r/100.0);
 
 	printf("\nSimple Interest : %.2f.\n",interest);
-return 0;
+	
+	printf("\n");
+	
+	return 0;
 }

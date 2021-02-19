@@ -12,8 +12,13 @@ double fact(double x)
 int main()
 {
 	int n;
+	
 	printf("\nEnter value for n: ");
     	scanf("%d",&n);
+	
 	printf("\n%d! : %.0lf\n",n,fact(n));		
+	
+	printf("\n");
+	
 	return 0;
 }

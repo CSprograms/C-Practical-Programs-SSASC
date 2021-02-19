@@ -17,5 +17,8 @@ int main()
 	interest = p * pow( 1 + ( (r / 100.0) /n ) , (n*t) ) - p;
 
 	printf("\nCompund Interest : %.2f.\n",interest);
-return 0;
+	
+	printf("\n");
+
+	return 0;
 }

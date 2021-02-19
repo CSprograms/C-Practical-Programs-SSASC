@@ -1,4 +1,16 @@
+/*
+	Institution		: Sri Sankara Arts and Science College (Autonomous), Enathur, Kanchipuram - 631 561.
+	Title of the Degree	: BCA.
+	Year / Semester		: I / II.
+	Academic Year		: 2018-2019 to 2020-2021. 
+	Title of the Paper 	: C Programming Lab.
+	Title of the Program 	: Inverse of Matrix.
+	Preapared by 		: M Aravindhan, Assistant Professor, Department of Computer Science,
+				Sri Sankara Arts and Science College (Autonomous), Enathur, Kanchipuram - 631 561.
+*/
+
 #include<stdio.h>
+
 #define N 10
 
 void scanm(int matrix[N][N],int row,int col)
@@ -7,11 +19,11 @@ void scanm(int matrix[N][N],int row,int col)
 
     	for(i = 0; i < row; i++)
 	{
-	        	for(j = 0; j < col; j++)
+        	for(j = 0; j < col; j++)
 		{
 			printf("Enter value for matrix[%d][%d] : ",i,j);
-	        	    	scanf("%d",&matrix[i][j]);
-        		}
+        	    	scanf("%d",&matrix[i][j]);
+       		}
     	}
     
 }
@@ -87,10 +99,13 @@ void adjoint(int A[N][N],int adj[N][N], int n)
 int inverse(int A[N][N], float inverse[N][N], int n) 
 { 
 	int adj[N][N], det;
+
 	det = determinantOfMatrix(A, n); 
+	
 	if (det == 0) 
 	{ 
 		printf("Singular matrix, can't find its inverse"); 
+	
 		return 0; 
 	} 
 
@@ -111,6 +126,7 @@ void display(float A[N][N], int n)
 		{
 			printf("%f\t",A[row][col]);
 		}
+		
 		printf("\n"); 
 	} 
 } 
@@ -118,6 +134,7 @@ void display(float A[N][N], int n)
 int main()
 {
 	int a[N][N], size, adj[N][N];
+	
 	float inv[N][N];
 
 	printf("\nEnter value for size of matrix A : ");
@@ -129,10 +146,10 @@ int main()
 	adjoint(a, adj,size); 
 
 	printf("\nThe Inverse is :\n"); 
+	
 	if (inverse(a, inv, size)) 
 		display(inv, size); 
 
-    	
 	return 0;
         
 }

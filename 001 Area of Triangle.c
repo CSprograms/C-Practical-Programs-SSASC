@@ -13,6 +13,8 @@ int main( )
 	area = (breadth * height)/2;
 
 	printf("\nArea of Triangle is %.2f.\n", area);
+	
+	printf("\n");
 
 	return 0;
 }

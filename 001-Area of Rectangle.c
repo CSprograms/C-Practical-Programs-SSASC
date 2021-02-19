@@ -13,6 +13,8 @@ int main( )
 	area = length * width;
 
 	printf("\nArea of Rectangle is %d.\n", area);
+	
+	printf("\n");
 
 	return 0;
 }

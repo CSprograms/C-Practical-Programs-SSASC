@@ -16,6 +16,8 @@ int main()
 	}
 
 	printf("\nSum of  digit is %d.\n",sum);
+	
+	printf("\n");
 
 	return 0;
 }

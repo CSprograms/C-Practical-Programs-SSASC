@@ -1,17 +1,29 @@
-/* PRACTICAL PROGRAM 16: DETERMINANT OF A MATRIX */
+/*
+	Institution		: Sri Sankara Arts and Science College (Autonomous), Enathur, Kanchipuram - 631 561.
+	Title of the Degree	: BCA.
+	Year / Semester		: I / II.
+	Academic Year		: 2018-2019 to 2020-2021. 
+	Title of the Paper 	: C Programming Lab.
+	Title of the Program 	: Determinant of a Matrix.
+	Preapared by 		: M Aravindhan, Assistant Professor, Department of Computer Science,
+				Sri Sankara Arts and Science College (Autonomous), Enathur, Kanchipuram - 631 561.
+*/
+
 #include<stdio.h>
+
 #define N 10
+
 void scanm(int matrix[N][N],int row,int col)
 {
 	int i, j;
 
     	for(i = 0; i < row; i++)
 	{
-	        	for(j = 0; j < col; j++)
+        	for(j = 0; j < col; j++)
 		{
 			printf("Enter value for matrix[%d][%d] : ",i,j);
-	        	    	scanf("%d",&matrix[i][j]);
-        		}
+        	    	scanf("%d",&matrix[i][j]);
+       		}
     	}
     
 }
@@ -52,7 +64,8 @@ int determinantOfMatrix(int mat[N][N], int n)
     for (int f = 0; f < n; f++)
     {
         getCofactor(mat, temp, 0, f, n);
-        D += sign * mat[0][f] * determinantOfMatrix(temp, n - 1);
+
+	D += sign * mat[0][f] * determinantOfMatrix(temp, n - 1);
  
         sign = -sign;
     }

@@ -1,3 +1,12 @@
+/*
+	Title of the Degree	: BCA
+	Year / Semester		: I / II
+	Academic Year		: 2018-2019 to 2020-2021 
+	Title of the Paper 	: C Programming Lab
+	Title of the Program 	: Area of Rectangle
+	Preapared by 		: M Aravindhan
+	
+*/
 #include <stdio.h>
 
 int main( )

@@ -1,12 +1,12 @@
 /*
 	Institution		: Sri Sankara Arts and Science College (Autonomous), Enathur, Kanchipuram - 631 561.
 	Title of the Degree	: BCA.
-	Year / Semester		: I / II.
-	Academic Year		: 2018-2019 to 2020-2021. 
+	Year / Semester	: I / II.
+	Academic Year	: 2018-2019 to 2020-2021. 
 	Title of the Paper 	: C Programming Lab.
 	Title of the Program 	: Counting the no. of vowels, consonants, words, white spaces in a line of text and array of lines.
-	Preapared by 		: M Aravindhan, Assistant Professor, Department of Computer Science,
-				Sri Sankara Arts and Science College (Autonomous), Enathur, Kanchipuram - 631 561.
+	Preapared by 	: M Aravindhan, Assistant Professor, Department of Computer Science,
+			Sri Sankara Arts and Science College (Autonomous), Enathur, Kanchipuram - 631 561.
 */
 #include <stdio.h>
 #include<ctype.h>
